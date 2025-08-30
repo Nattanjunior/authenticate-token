@@ -3,7 +3,7 @@ type Credentials = {
   password: string;
 };
 
-type User = {
+export type User = {
   userId: string;
 };
 export class AuthenticationService {
